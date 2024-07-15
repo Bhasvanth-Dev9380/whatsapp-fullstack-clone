@@ -41,7 +41,7 @@ class _LandingScreenState extends State<LandingScreen> {
                   hintText: 'Enter anything',
                 ),
                 onChanged: (value) {
-                  if (value == "dev💓devi") {
+                  if (value == "") {
                     // Navigate to the login screen if specific text is typed
                     navigateToLoginScreen(context);
                   }
@@ -55,7 +55,7 @@ class _LandingScreenState extends State<LandingScreen> {
                 text: 'Show Message',
                 onPressed: () {
                   if (toastController.text.isNotEmpty &&
-                      toastController.text != "dev💓devi") {
+                      toastController.text != "") {
                     Fluttertoast.showToast(
                       msg: toastController.text,
                       toastLength: Toast.LENGTH_SHORT,
