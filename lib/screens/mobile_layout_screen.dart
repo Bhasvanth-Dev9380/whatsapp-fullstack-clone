@@ -63,7 +63,7 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
           backgroundColor: appBarColor,
           centerTitle: true,
           title: const Text(
-            'dev💓devi',
+            'Whatsapp Clone full stack',
             style: TextStyle(
               fontSize: 20,
               color: Colors.grey,
